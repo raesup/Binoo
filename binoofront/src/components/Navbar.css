@@ -1,0 +1,124 @@
+.nav-main {
+	position: relative;
+	width: 70%;
+	left: 15%;
+	/* justify-content: center;
+	align-items: center; */
+	/* padding: 0; */
+	/* box-sizing: border-box; */
+	padding: 1%;
+	margin-top: 2%;
+	/* margin-bottom: 1%; */
+	/* display: flex; */
+	justify-content: space-between;
+}
+
+.nav-menu {
+	background: white;
+	padding-top: 2%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 50px;
+}
+
+.nav-menu a {
+	font-size: 25px;
+	color: gray;
+	text-decoration: none;
+	position: relative;
+	padding: 10px;
+	/* padding: 6px 12px; */
+}
+
+.nav-menu a::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 0;
+	height: 4px;
+	background: rgb(246, 153, 153);
+	transition: all 0.5s ease-out;
+}
+
+.nav-menu a:hover::after {
+	width: 100%;
+}
+
+.aboutBt {
+	right: 18%;
+}
+
+.nav-logo {
+	font: rgb(36, 29, 29);
+	position: absolute;
+	left: 50%;
+	top: 5%;
+	margin-left: -70px;
+}
+
+.nav-logo a:hover::after {
+	width: 0%;
+}
+
+.loginedTabs {
+	width: 20%;
+	display: flex;
+	padding: 20px;
+}
+
+/* .underline {
+	border-bottom-width: 2px;
+	color: #f1c40f;
+} */
+
+.mobileMenu {
+	display: none;
+}
+
+@media screen and (max-width: 700px) {
+	.mobileMenu {
+		color: black;
+		display: block;
+		position: absolute;
+		top: 0;
+		right: 0;
+		transform: translate(40%, 90%);
+		font-size: 2rem;
+		margin-bottom: 0;
+		font-weight: bold;
+		font-size: 35px;
+		line-height: 0;
+		cursor: pointer;
+	}
+	.nav-menu a {
+		display: none;
+	}
+
+	.nav-logo a {
+		display: block;
+		position: absolute;
+		left: 50%;
+		top: 1%;
+		transform: translate(15%, 2%);
+		padding: 1%;
+		margin-bottom: 2%;
+	}
+
+	.nav-logo img {
+		width: 100px;
+		height: 90px;
+	}
+	/* 
+	.nav-menu a.nav-logo {
+		display: block;
+		position: absolute;
+		left: 50%;
+		top: 1%;
+		transform: translate(-10%, 2%);
+		padding: 1%;
+		margin-bottom: 2%;
+	} */
+}

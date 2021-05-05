@@ -1,0 +1,19 @@
+html,
+body {
+	height: 100%;
+	font-family: 'Karla', sans-serif;
+}
+
+#root {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	font-family: 'Karla', sans-serif;
+}
+
+.footbar {
+	flex-shrink: 1;
+	text-align: center;
+
+	margin: 0 auto;
+}

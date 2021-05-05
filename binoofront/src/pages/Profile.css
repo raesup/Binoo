@@ -1,0 +1,276 @@
+.b-container-admin-profile {
+	margin: 0 auto;
+	width: 70%;
+	height: 100%;
+}
+
+.row {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.side-container-admin-profile {
+	width: 15%;
+	width: 0 auto;
+}
+
+.edit-container-admin-profile {
+	width: 85%;
+	margin: 0 auto;
+}
+
+.admin-title {
+	margin-top: 100px;
+	margin-left: 30%;
+	color: grey;
+	font-size: 45px;
+}
+
+.admin-profile-table {
+	width: 50%;
+	margin-top: 40px;
+	margin-left: 20%;
+}
+
+.admin-profile-from:focus {
+	outline: none;
+	font-size: 20px;
+}
+
+.admin-profile-from {
+	border-style: hidden;
+}
+
+.admin-profile-table td {
+	font-size: 25px;
+	padding: 5px;
+}
+
+.for-footer-admin {
+	height: 315px;
+}
+
+.label-top {
+	margin-top: 20px;
+}
+
+/* user */
+.b-container-user-profile {
+	margin: 0 auto;
+	width: 70%;
+	height: 100%;
+}
+
+.side-container-user-profile {
+	width: 15%;
+	width: 0 auto;
+}
+
+.edit-container-user-account {
+	width: 85%;
+	margin: 0 auto;
+}
+
+.user-title {
+	margin-left: 32%;
+	margin-top: 100px;
+	color: grey;
+	font-size: 45px;
+}
+
+.user-account-container {
+	margin: 40px auto 0;
+	margin-top: 40px;
+	margin-left: 18%;
+	width: 50%;
+}
+
+.for-footer-user-profile {
+	height: 230px;
+}
+
+.user-acct-btn {
+	width: 49%;
+	margin: 30px 3px;
+}
+
+.btn-display {
+	margin: 40px auto;
+	display: inline;
+}
+
+@media screen and (max-width: 380px) {
+	.b-container-admin-profile {
+		margin: 0px;
+		width: 100%;
+		font-size: 10px;
+	}
+
+	.side-container-admin-profile {
+		width: 70%;
+		margin: 40px auto;
+		margin-left: 25%;
+	}
+
+	.edit-container-admin-profile {
+		width: 100%;
+	}
+
+	.admin-profile-table {
+		width: 80%;
+		margin-left: 15%;
+	}
+
+	.admin-title {
+		text-align: center;
+		margin-left: 7%;
+		margin-bottom: 40px;
+		margin-top: 0px;
+		color: grey;
+		font-size: 25px;
+	}
+
+	/* User */
+
+	.b-container-user-profile {
+		margin: 0px;
+		width: 100%;
+		font-size: 13px;
+	}
+
+	.side-container-user-profile {
+		width: 60%;
+		margin: 40px auto 0px;
+	}
+
+	.edit-container-user-account {
+		width: 100%;
+		margin: 0px auto;
+	}
+
+	.user-title {
+		margin-left: 110px;
+		margin-top: 40px;
+		color: grey;
+		font-size: 30px;
+	}
+
+	.user-account-container {
+		margin: 30px auto;
+		margin-left: 9%;
+		width: 90%;
+	}
+
+	.for-footer-user-profile {
+		height: 230px;
+	}
+
+	.user-acct-btn {
+		width: 100%;
+		margin: 5px 0px;
+	}
+
+	.btn-container-user {
+		margin-top: 30px;
+	}
+}
+
+@media screen and (min-width: 380px) and (max-width: 1480px) {
+	.b-container-admin-profile {
+		width: 100%;
+		font-size: 10px;
+	}
+
+	.side-container-admin-profile {
+		width: 100%;
+		margin: -100px auto 40px;
+	}
+
+	.edit-container-admin-profile {
+		width: 100%;
+		margin-top: 30px;
+	}
+
+	.admin-profile-table {
+		width: 50%;
+		margin: 30px auto 0;
+	}
+
+	.admin-title {
+		margin-bottom: 60px;
+		margin-top: 0px;
+		margin-left: 40%;
+		color: grey;
+		font-size: 30px;
+	}
+
+	.admin-profile-table td {
+		font-size: 20px;
+		padding: 5px;
+	}
+
+	.btn-display {
+		width: 50%;
+		display: inline;
+	}
+
+	/* User */
+
+	.b-container-user-profile {
+		margin: 0px;
+		width: 100%;
+		font-size: 13px;
+	}
+
+	.side-container-user-profile {
+		width: 50%;
+		margin-top: -125px;
+		margin-left: 10%;
+	}
+
+	.edit-container-user-account {
+		width: 70%;
+		margin: 40px auto;
+	}
+
+	.user-title {
+		margin-left: 40%;
+		margin-top: 40px;
+		color: grey;
+		font-size: 30px;
+	}
+
+	.user-account-container {
+		margin: 30px auto;
+		margin-left: 9%;
+		width: 90%;
+	}
+
+	.for-footer-user-profile {
+		height: 230px;
+	}
+
+	.user-acct-btn {
+		width: 100%;
+		margin: 5px 0px;
+	}
+
+	.btn-container-user {
+		margin-top: 30px;
+	}
+}
+
+@media screen and (min-width: 1480px) {
+	.user-acct-btn {
+		width: 48%;
+		margin: 30px 5px;
+	}
+
+	.btn-display {
+		margin: 40px auto;
+		display: inline;
+	}
+}

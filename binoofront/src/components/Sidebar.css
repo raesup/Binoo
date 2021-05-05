@@ -1,0 +1,25 @@
+.sidebarContainer {
+	background: white;
+	display: flex;
+	justify-content: center;
+	margin-top: 200px;
+	color: #96d2d9;
+}
+
+.wrapper a:hover {
+	text-decoration: none;
+	color: white;
+	background-color: #96d2d9;
+	border-left: 4px solid 96d2d9;
+	border-radius: 5%;
+}
+
+@media screen and (max-width: 380px) {
+	.sidebarContainer {
+		background: white;
+		display: flex;
+		justify-content: center;
+		margin-top: 30px;
+		color: #96d2d9;
+	}
+}

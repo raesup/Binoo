@@ -1,0 +1,45 @@
+span {
+	margin-left: 16px;
+}
+
+.link {
+	display: flex;
+	color: #e1e9fc;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	list-style: none;
+	height: 60px;
+	text-decoration: none;
+	font-size: 20px;
+	color: #23b8c9;
+	font-weight: 600;
+}
+
+.link a:hover {
+	background: white;
+	border-left: 4px solid yellow;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+span {
+	margin-left: 16px;
+}
+
+.subLink {
+	background: rgb(97, 232, 247, 0.1);
+	height: 60px;
+	padding-left: 2.5rem;
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	color: #23b8c9;
+	font-size: 17px;
+	font-weight: 600;
+}
+
+.subLink a:hover {
+	background: yellow;
+	cursor: pointer;
+}

@@ -1,0 +1,171 @@
+.b-container {
+	margin: 0 auto;
+	width: 70%;
+}
+
+.row {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.side-container {
+	width: 15%;
+	width: 0 auto;
+}
+
+.edit-container {
+	width: 85%;
+	margin: 0 auto;
+}
+
+.edit-title {
+	text-align: center;
+	margin-top: 100px;
+	font-size: 45px;
+}
+
+.t-container {
+	width: 100%;
+	margin-top: 70px;
+}
+
+.edit {
+	color: #96d2d9;
+}
+
+.del {
+	color: rgb(250, 128, 149);
+	margin-left: 15%;
+}
+
+.for-footer {
+	height: 225px;
+}
+
+@media screen and (max-width: 380px) {
+	.b-container {
+		width: 130%;
+		font-size: 10px;
+	}
+
+	.side-container {
+		width: 60%;
+		margin: 40px auto;
+		margin-left: 15%;
+	}
+
+	.edit-container {
+		width: 100%;
+		margin: 0 auto;
+		margin-left: -7%;
+	}
+	.edit-title {
+		margin-top: 0px;
+		margin-left: -5%;
+		width: 110%;
+		color: grey;
+	}
+
+	.t-container {
+		margin: 30px auto;
+		width: 100%;
+	}
+
+	td {
+		font-size: 15px;
+		border: none;
+		border-top: none;
+		position: relative;
+	}
+
+	.td-align {
+		text-align: center;
+		padding-left: 160px;
+		margin-left: 50ox;
+	}
+
+	.del {
+		text-align: center;
+		margin-left: 0%;
+		padding-bottom: 10px;
+	}
+
+	.prod-img {
+		height: 150px;
+		width: 150px;
+		margin-top: 30px;
+	}
+
+	table,
+	thead,
+	tbody,
+	th,
+	td,
+	tr {
+		display: block;
+	}
+
+	thead tr {
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+
+	td:before {
+		position: absolute;
+		top: 6px;
+		left: 6px;
+		width: 45%;
+		padding-right: 10px;
+		white-space: nowrap;
+	}
+
+	.custom-table tr th:nth-child(1),
+	.custom-table tr td:nth-child(1) {
+		display: none;
+	}
+
+	.custom-table tr th:nth-child(3),
+	.custom-table tr td:nth-child(3) {
+		display: none;
+	}
+
+	.custom-table tr th:nth-child(4),
+	.custom-table tr td:nth-child(4) {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 380px) and (max-width: 1480px) {
+	.b-container {
+		width: 100%;
+		font-size: 10px;
+	}
+
+	.side-container {
+		width: 100%;
+		margin: -100px auto 40px;
+		margin-left: 3%;
+		font-size: 30px;
+	}
+
+	.edit-container {
+		width: 80%;
+		margin: 0 auto;
+	}
+	.edit-title {
+		margin-top: 10px;
+		margin-bottom: 60px;
+		width: 100%;
+		color: grey;
+		font-size: 50px;
+	}
+
+	.t-container {
+		margin: 30px auto;
+		width: 100%;
+	}
+}

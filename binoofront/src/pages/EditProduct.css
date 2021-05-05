@@ -1,0 +1,161 @@
+.b-container-1p {
+	margin: auto;
+	width: 70%;
+}
+
+.row {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.sidebar-container-1p {
+	width: 15%;
+	width: 0 auto;
+}
+
+.edit-container-1p {
+	width: 85%;
+	margin: 0 auto;
+}
+
+.p-container-1p {
+	margin: 57px auto;
+	padding: 0 80px;
+}
+
+.image-container-1p {
+	height: 30px;
+	margin-top: 20px;
+	background-color: pink;
+	width: 100%;
+	text-align: center;
+	color: black;
+	font-weight: 400;
+}
+
+.title-1p {
+	text-align: center;
+	margin-top: 100px;
+	color: grey;
+	font-size: 45px;
+}
+
+.btn {
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+.prodImg-1p {
+	height: 250px;
+	width: 200px;
+}
+
+.preview-1p {
+	margin-top: 60px;
+	text-align: center;
+}
+
+@media screen and (max-width: 380px) {
+	.b-container-1p {
+		margin: 0px;
+		width: 100%;
+		font-size: 10px;
+	}
+
+	.sidebar-container-1p {
+		width: 60%;
+		margin: 40px auto 0;
+	}
+
+	.edit-container-1p {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.p-container-1p {
+		width: 110%;
+		margin: 40px auto;
+	}
+
+	.title-1p {
+		width: 100%;
+		margin-top: 30px;
+		color: grey;
+		font-size: 25px;
+	}
+
+	.image-container-1p {
+		height: 20px;
+		width: 100%;
+		margin-top: 20px;
+		background-color: pink;
+		text-align: cemter;
+		color: black;
+		font-weight: 400;
+	}
+
+	.btn {
+		margin-top: 20px;
+		margin-bottom: 50px;
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 380px) and (max-width: 1700px) {
+	.b-container-1p {
+		margin: 0px;
+		width: 50%;
+		margin: 0 auto;
+	}
+
+	.sidebar-container-1p {
+		width: 100%;
+		margin: -100px auto 20px;
+	}
+
+	.edit-container-1p {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.p-container-1p {
+		width: 100%;
+		margin: 40px auto;
+	}
+
+	.form-control {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.title-1p {
+		width: 100%;
+		margin-top: 30px;
+		color: grey;
+		font-size: 35px;
+	}
+
+	.image-container-1p {
+		height: 20px;
+		width: 100%;
+		margin-top: 20px;
+		background-color: pink;
+		text-align: cemter;
+		color: black;
+		font-weight: 400;
+	}
+
+	.prodImg-1p {
+		height: 100px;
+		width: 100px;
+	}
+
+	.btn {
+		margin-top: 20px;
+		margin-bottom: 50px;
+		width: 100%;
+	}
+}

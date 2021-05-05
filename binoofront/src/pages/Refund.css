@@ -1,0 +1,13 @@
+.refund {
+	text-align: center;
+	padding: 130px;
+	color: rgb(102, 138, 138);
+	font-size: 4rem;
+}
+
+.text {
+	padding: 0 150px;
+	font-size: 1rem;
+	text-align: left;
+	color: grey;
+}
